@@ -38,7 +38,7 @@ Este projeto utiliza as seguintes APIs externas:
     ```bash
     cd [nome do diretório do projeto]
     ```
-3.  Abra o arquivo `index.html` (ou a página inicial do seu site) no seu navegador.
+3.  Abra o arquivo `TelaLogin.html` (ou a página inicial do seu site) no seu navegador.
 
 ## Próximos Passos (Opcional)
 
