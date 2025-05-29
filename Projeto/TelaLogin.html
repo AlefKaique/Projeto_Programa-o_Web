@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tackle Talk</title>
+    <link rel="stylesheet" href="TelaLoginCss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="login-title">
+            <div id="div-login-texto">
+                <img id="retangulo-login" src="imagens/Rectangle 17.png" alt="">
+                <p id="texto-login">Login</p>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div id="menu">
+            <div id="container-menu">
+                <div id="botao-config">
+                    <a href="TelaConfig.html" class="botoes-menu"><img src="imagens/settings.png" alt=""></a>
+                    <p class="texto-icon-menus">Configurações</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="caixa">
+            <form>
+                <div id="dentro">
+                    <h2 id="Login">Login</h2>
+                    <hr id="linha">
+                    <div id="login-senha">
+                        <div class="caixas-entrada">
+                            <label class="nome-caixa">E-MAIL:</label>
+                            <input name="email" class="caixa-login" type="email" id="email"/>
+                        </div>
+
+                        <div class="caixas-entrada">
+                            <label class="nome-caixa">SENHA:</label>
+                            <input name="senha" class="caixa-login" type="password" id="password"/>
+                        </div>
+
+                        <div>
+                            <button type="button" onclick="Login()" name="submit" id="botao-envia">Entrar</button>
+                        </div>
+
+                    </div>
+
+                    <div id="links">
+                        <a class="link-baixo" id="texto-senha" href="./TelaEsqueciSenha.html">ESQUECEU A SENHA?</a>
+                        <div id="link-cadastra">
+                            <p id="texto-final">NÃO POSSUI CONTA?</p>
+                            <a class="link-baixo" href="./TelaCadastro.html">CADASTRE-SE!</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </form>
+    </section>
+
+    <footer>
+        <div id="rodape">
+            <div>
+                <img id="logo-bola" src="./imagens/carpng.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="scriptLogin.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Localização - Auto Car Bulls</title>
+    <link rel="stylesheet" href="localizacaoCss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&family=Lustria&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="imagens/Rectangle 17.png" alt="Auto Car Bulls" class="logo-bar">
+            <h1 class="site-title">Auto Car Bulls</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="navbar-center">
+            <a href="ClubeDeEsportes.html">AUTO CAR BULLS</a>
+            <a href="TelaProduto.html">PRODUTOS</a>
+            <a href="localizacao.html">LOCALIZAÇÃO</a>
+        </div>
+        <div class="user-account">
+            <a href="TelaLogin.html" class="account"><i class="fas fa-user"></i> MINHA CONTA</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="location-info">
+            <h2>Onde nos encontrar</h2>
+        </section>
+
+        <body>
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
+            </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+        </body>
+        <section class="google-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.1715248015603!2d-46.7017363237569!3d-23.66982326558767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce515bb231b5ed%3A0x327b78892baef8e6!2zU2VuYWMgTmHDp8O1ZXMgVW5pZGFz!5e0!3m2!1spt-BR!2sbr!4v1731454111485!5m2!1spt-BR!2sbr"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>Acompanhe a gente nas redes sociais!</h2>
+        <hr>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        function irParaFim() {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        }
+    </script>
+</body>
+
+</html>
